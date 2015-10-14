@@ -1,0 +1,29 @@
+﻿2015/10/12 22:28:09 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\GameDevelopments\C++\GdkDx9\GdkDx9.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"D:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+         D:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>Main.cpp(44): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GameDevelopments\C++\GdkDx9\Release\GdkDx9.exe" /NOLOGO /LIBPATH:"D:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" d3d9.lib d3dx9.lib dinput8.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\GameDevelopments\C++\GdkDx9\Release\GdkDx9.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GameDevelopments\C++\GdkDx9\Release\GdkDx9.lib" /MACHINE:X86 /SAFESEH Release\Camera.obj
+         Release\Cursor.obj
+         Release\Debug.obj
+         Release\GdkDx9.obj
+         Release\Input.obj
+         Release\Int2.obj
+         Release\Main.obj
+         Release\Mesh.obj
+         Release\Render.obj
+         Release\Screen.obj
+         コード生成しています。
+         1 of 137 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         コード生成が終了しました。
+         GdkDx9.vcxproj -> D:\GameDevelopments\C++\GdkDx9\Release\GdkDx9.exe
+     1>プロジェクト "D:\GameDevelopments\C++\GdkDx9\GdkDx9.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:02.99
